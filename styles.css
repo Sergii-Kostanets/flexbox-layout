@@ -21,14 +21,42 @@ footer {
   padding: 16px 32px;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
 nav a {
   color: saddlebrown;
 }
 
+.cards {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 article {
+  position: relative;
+  flex: 1;
   background-color: white;
   border: 1px solid tan;
   padding: 16px;
+}
+
+.badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: saddlebrown;
+  color: white;
+  padding: 4px 8px;
 }
 
 footer {
